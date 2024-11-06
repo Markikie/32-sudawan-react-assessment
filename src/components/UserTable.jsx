@@ -3,9 +3,9 @@ import React from 'react'
 const UserTable = ({ users }) => {
   return (
     <div className="overflow-x-auto w-full max-w-4xl mx-auto">
-      <table className="min-w-full bg-white border border-gray-300 rounded-lg shadow-lg">
+      <table className="min-w-full bg-white border border-gray-300 rounded-xl shadow-lg">
         <thead>
-          <tr className="bg-gray-800 text-white uppercase text-sm leading-normal">
+          <tr className="bg-[#556B2F] text-white uppercase text-sm leading-normal">
             <th className="py-3 px-6 text-left border-b border-gray-300">Name</th>
             <th className="py-3 px-6 text-left border-b border-gray-300">Last Name</th>
             <th className="py-3 px-6 text-left border-b border-gray-300">Position</th>
