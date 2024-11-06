@@ -13,8 +13,26 @@ const AdminTable = ({ users}) => {
                 </tr>
             </thead>
         </table>
+        <tbody>
+            {users.map(user =>(
+                <tr>
+                    <td>{user.name}</td>
+                    <td>{user.lastName}</td>
+                    <td>{user.position}</td>
+                    <td>
+                        <button>
+                            Edit
+                        </button>
+                        <button>
+                            Delete
+                        </button>
+                    </td>
+                </tr>
+            ))}
+        </tbody>
     </div>
-  )
-}
+  );
+};
+
 
 export default AdminTable
